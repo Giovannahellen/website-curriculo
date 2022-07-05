@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Borda cheia das div e formato da letra */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Aileron', sans-serif;
+}
+
+/* Imagem de fundo com parallax */
+
+img{
+  width: 100%;
+}
+
+.parallax{
+  top: 0;
+  object-fit: cover;
+  position: fixed;
+  z-index: -10;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #292D2E;
+}
+  
+/* Escrita dentro do cabeçalho */
+  
+.cabecalho2{
+  margin-left: 400px;
+  top:-100;
+  letter-spacing: 1px;
+  float: left;
+  color: #D3CFC9;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 6em;
+}
+
+/* Nome introdutório */
+
+h2{
+  text-align: center;
+  color: #292D2E;
+  margin-top: 250px; 
+  font-size: 50px;
+}
+
+/* Linha */
+
+hr{
+  width: 500px;
+  height: 5px;
+  margin-left: 472px;
+  background-color: #292D2E;
+}
+
+/* texto do nome introdutório */
+
+.tit{
+  margin-left: 510px; 
+  color: #292D2E;
+  margin-top: 10px; 
+  font-size: 25px;
+  opacity: .8;
+}
+
+/* Início */
+
+.container1{
+  margin-top: 50px; 
+  width: 100%;
+  height: 340px;
+  background-color: #292D2E;
+}
+
+/* Sobre */
+
+.container2{
+  margin-top: 50px; 
+  width: 100%;
+  height: 340px;
+  background-color: #292D2E;
+}
+
+/* Contato */
+
+.container3{
+  margin-top: 50px; 
+  width: 100%;
+  height: 750px;
+  background-color: #292D2E;
+}
+
+/* Título de cada div */
+
+h4{
+  padding-top: 80px;
+  margin-left: 100px;
+  font-size: 25px;
+  color: #D3CFC9;
+  text-decoration: underline;
+}
+    
+/* Área e textos de cada div */
+
+table{
+  width: 1300px;
+}
+
+p{
+  padding-top: -50px;
+  margin-left: 500px;
+  font-size: 15px;
+  text-align: justify;
+  color: #D3CFC9;
+}
+  
+/* Área do formulário */
+
+.container4{
+  position: relative;
+  width: 100%;
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-gap: 30px;
+  min-height: 200px;
+  padding: 20px;
+  top: 65px;
+}
+  
+/* Formulário de contato */
+
+container .container5 .contato .formulario{
+  position: relative;
+  width: 50%;
+  min-width: 600px;
+  margin-left: 550px;
+  height: 112%;
+  background: #1F2223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+  top: -95px;
+  border-radius: 10px;
+}
+
+/* configurações dos inputs */
+  
+container .container5 .contato .formulario input, textarea{
+  width: 100%;
+  padding: 10px;
+  background: #EBEEF4;
+  border-radius: 2px;
+  color: #000;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 14px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* Tamanho do textarea */
+  
+container .container5 .contato .formulario textarea{ 
+  height: 138px;
+}
+
+/* Tirando o scroll do textarea */
+  
+textarea::-webkit-scrollbar{
+  width: 1px;
+}
+  
+/* Botão */
+  
+container .container5 .contato .formulario input[type="button"]{
+  max-width: 100px;
+  background: #BFC1CE;
+  color: #1F2223;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+/* Rodapé */
+
+footer{
+  margin-top: 100px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #292D2E;
+  box-shadow: 0 1px 3px #000;
+  color: #D3CFC9;
+}
+
+/* Logo do rodapé */
+
+.marista{
+    margin-left: 550px;
+    margin-top: -20px;
+    width:200%;
+}
+  
+/* Área da logo */
+  
+.rodape1{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/* Área fantasma que limita o tamanho da logo */
+  
+.rodape1 .caixa{
+  margin-top: 50px;
+  position: relative;
+  width: 150px;
+  height: 83px;
+}
+  
+/* Rodapé 2 */
+  
+.rodape2{
+  background: #1F2223;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+  
+/* Copyright do rodapé 2 */
+
+.rodape2 p{
+  font-size: 14px;
+  word-spacing: 2px;
+}
+  
+/* & do Rodapé 2 */
+  
+.rodape2 span{
+  text-transform: none;
+  font-weight: 200;
+  color: grey;
+}
